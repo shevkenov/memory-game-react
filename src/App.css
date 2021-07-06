@@ -56,3 +56,26 @@ img {
 .is-flipped {
   transform: rotateY(180deg);
 }
+
+.results, .restart-game{
+  display: flex;
+  justify-content: center;
+  margin: 10px;
+}
+
+.moves {
+  margin: 10px;
+  font-size: 1.2rem;
+}
+
+.moves > span{
+  font-weight: 700;
+}
+
+button {
+  padding: 5px 20px;
+  font-size: 1.2rem;
+  background-color: rgb(6, 53, 139);
+  color: white;
+  border-radius: 5px;
+}
